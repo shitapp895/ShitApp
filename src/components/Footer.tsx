@@ -1,4 +1,5 @@
 import { FaGithub } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -10,6 +11,12 @@ const Footer = () => {
           </p>
 
           <div className="flex items-center space-x-4 mt-2 md:mt-0">
+            <Link
+              to="/careers"
+              className="text-gray-600 dark:text-gray-400 hover:text-primary text-sm"
+            >
+              Careers
+            </Link>
             <a
               href="https://github.com/shitapp895/ShitApp"
               target="_blank"

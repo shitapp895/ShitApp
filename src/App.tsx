@@ -13,6 +13,7 @@ import Register from './pages/Register'
 import Profile from './pages/Profile'
 import Friends from './pages/Friends'
 import NotFound from './pages/NotFound'
+import Careers from './pages/Careers'
 
 // Context
 import { AuthProvider } from './contexts/AuthContext'
@@ -43,6 +44,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="profile" element={<Profile />} />
           <Route path="friends" element={<Friends />} />
+          <Route path="careers" element={<Careers />} />
         </Route>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
